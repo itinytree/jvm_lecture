@@ -14,6 +14,8 @@ public class MyTest6 {
 class Singleton {
     public static int counter1 = 1;
 
+//    public static int counter2 = 0;
+
     private static Singleton singleton = new Singleton();
 
     private Singleton() {
