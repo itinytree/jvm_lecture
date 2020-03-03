@@ -44,7 +44,7 @@ interface MyGrandpa5_1 {
     };
 }
 
-interface MyParent5_1 extends MyGrandpa5_1 {
+interface  MyParent5_1 extends MyGrandpa5_1 {
     public static final Thread thread = new Thread() {
         {
             System.out.println("MyParent5_1 invoked");
