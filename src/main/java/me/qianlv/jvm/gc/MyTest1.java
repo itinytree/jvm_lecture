@@ -3,7 +3,7 @@ package me.qianlv.jvm.gc;
 /**
  * -verbose:gc 输出详细的GC信息
  * -Xms20M 堆容量初始值
- * -Xmx20M 对容量最大值
+ * -Xmx20M 堆容量最大值
  * -Xmn10M 新生代大小
  * -XX:+PrintGCDetails
  * -XX:SurvivorRatio=8 eden与survivor的比例
